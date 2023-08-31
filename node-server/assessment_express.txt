@@ -1,0 +1,37 @@
+// Assessment 30th August
+
+//1. create a basic setup with npm cli, write the steps to do so, using express
+//Get to the desire folder/directory then use command - npm init
+//Add information to package.json such as description, main js file name, script, license etc.
+//Then need to install express using command npm i <PACKAGE NAME> - npm i express
+//Make main js file as stated in package.json then import express
+//Create API request and define listening port
+//Start server using comman - npm start
+
+//2. Create an API named getInfo with server.js as main file and configure using nodemon
+
+
+//3. Explain the purpose of express elements - Application, Request, Response and Router
+//Application is core object which let us to add middleware and route handlers. 
+//Request represents the HTTP request and properties such as query string, body, HTTP headers, etc.
+//Response sends response back to client browser.
+//Router can be used to handle requests which can be easily differentiated.
+
+//4. What will happen if we don't have package.lock.json in our application
+//Package lock is used to lock dependecies to a specific version. Therefore, if package lock is deleted or not exist in our application
+//all modules will be updated to the latest version. This will cause version missmatching which happends that the app may work for this 
+//person but not for other in the same developer team if they don't run npm install after each pull.
+
+//5. Create an api name getVaccine with get method, pass info like - vaccineName, price, doses
+//   pass these information using query string and save it into a json file on server also send back the same as response
+
+//6. What is the purpose of RESTFul API and what specifications are must to make a service RESTFul
+//Purpose is clients can communicate with server using API such as GET, PUT, POST, DELETE, PATCH etc
+//The service is RESTful when the architecture is client-server based, stateless operations, uniform interface, cacheable,
+// layered and could send executable code to the client if needed.
+
+//7. Create an example of Application mounting using vaccination API's
+
+
+//8. Create an API to demonstrate route param usage like - getVaccineByID 
+
